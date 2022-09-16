@@ -1,13 +1,12 @@
 #include <stdio.h>
-#include <ctype.h>
-int _isupper(char c){
+#include "main.h"
+ int main(void)
+{
+    char c;
 
-    if(isupper(c)){
-        return 1;
-    }
-    else{
-        return 0;
-    }
-
-
+    c = 'A';
+    printf("%c: %d\n", c, _isupper(c));
+    c = 'a';
+    printf("%c: %d\n", c, _isupper(c));
+    return (0);
 }
