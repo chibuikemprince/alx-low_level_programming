@@ -5,8 +5,8 @@
  * main - entry point
  * Return: 0
  */
-int main()
-{	
+int main(void)
+{
 	int d;
 
 	for (d = '0'; d <= '9'; d++)
