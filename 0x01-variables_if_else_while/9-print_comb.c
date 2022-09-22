@@ -2,7 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point                                                                                                    * Return: Always 0 (Success)                                                                                            */                                                                                                                     int main(void)                                                                                                          { 
+ * main - entry point
+ * Return: 0
+ */
+int main()
+{	
 	int d;
 
 	for (d = '0'; d <= '9'; d++)
