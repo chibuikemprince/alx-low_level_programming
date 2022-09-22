@@ -1,0 +1,5 @@
+#!/bin/bash
+echo $CFILE | sed 's/c$/o/'| xargs gcc -S $CFILE -o
+
+
+
